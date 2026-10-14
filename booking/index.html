@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book a Taxi or Private Transfer in Italy | Request Your Journey | Italy Taxi Service</title>
+<meta name="description" content="Request a taxi or private transfer in Italy: airport, city, long-distance, group or chauffeur. Send your pickup, destination and travel details and we will review your request.">
+<link rel="canonical" href="https://www.example.com/booking/">
+<meta name="theme-color" content="#14201c">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Book Your Journey | Italy Taxi Service">
+<meta property="og:description" content="Share your journey details and travel requirements, and we will arrange the right transportation.">
+<meta property="og:image" content="../images/rome-street.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../services.css">
+<link rel="stylesheet" href="../airport.css">
+<link rel="stylesheet" href="../booking.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebPage","@id":"https://www.example.com/booking/#webpage","url":"https://www.example.com/booking/","name":"Book Your Journey","isPartOf":{"@id":"https://www.example.com/#website"},"breadcrumb":{"@id":"https://www.example.com/booking/#breadcrumb"},"inLanguage":"en"},
+{"@type":"BreadcrumbList","@id":"https://www.example.com/booking/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.example.com/"},{"@type":"ListItem","position":2,"name":"Booking","item":"https://www.example.com/booking/"}]},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What information do I need to provide when booking?","acceptedAnswer":{"@type":"Answer","text":"Your pickup location, destination, travel date, preferred pickup time, number of passengers, luggage information, your name and a phone or WhatsApp number, plus any special instructions."}},
+{"@type":"Question","name":"Can I request an airport transfer?","acceptedAnswer":{"@type":"Answer","text":"Yes. Choose Airport Transfer, enter the airport as your pickup or destination, and add your flight number in the additional information."}},
+{"@type":"Question","name":"Can I book transportation between Italian cities?","acceptedAnswer":{"@type":"Answer","text":"Yes. Choose Long-Distance Transfer and enter your starting point and destination. We will confirm whether we can take the journey."}},
+{"@type":"Question","name":"Can I book for a group?","acceptedAnswer":{"@type":"Answer","text":"Yes. Choose Group & Minivan Transfer, enter the number of passengers and describe your luggage so we can suggest a suitable arrangement."}},
+{"@type":"Question","name":"Can I include luggage information?","acceptedAnswer":{"@type":"Answer","text":"Yes. Use the luggage field and add details about large or unusual items in the additional information."}},
+{"@type":"Question","name":"Can I request a specific pickup time?","acceptedAnswer":{"@type":"Answer","text":"Yes. Enter your preferred pickup time. The time is subject to confirmation."}},
+{"@type":"Question","name":"Will I see the price before submitting my request?","acceptedAnswer":{"@type":"Answer","text":"The booking form does not display an automatic estimated fare. Journey details are submitted first so the transportation request can be reviewed."}}]}
+]}
+</script>
+</head>
+<body class="services-page airport-page booking-page">
+<a class="skip" href="#form-title">Skip to the booking form</a>
+
+<header class="site-header" id="top">
+  <div class="wrap header-in">
+    <a class="brand" href="../index.html" aria-label="Italy Taxi Service — home">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" width="30" height="30"><circle cx="16" cy="16" r="15" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M6 21c4.5-1 6-6 10-6s5.5 5 10 6" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M6 15.5c4.5-1 6-6 10-6s5.5 5 10 6" fill="none" stroke="#c9653f" stroke-width="1.4" stroke-linecap="round"/></svg></span>
+      <span class="brand-name">Italy <em>Taxi</em> Service</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="../index.html">Home</a>
+      <a href="../services/">Services</a>
+      <a href="./" aria-current="page" class="is-current">Booking</a>
+      <a href="#help">Which service?</a>
+      <a href="#faq">FAQ</a>
+      <a class="nav-cta" href="#form-title">Request a Transfer</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav" aria-label="Open menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+<section class="bk-hero" aria-labelledby="bk-title">
+  <img class="bk-hero-img" src="../images/rome-street.jpg" alt="" fetchpriority="high" decoding="async">
+  <div class="bk-hero-shade" aria-hidden="true"></div>
+  <div class="wrap bk-hero-in">
+    <p class="eyebrow rise" style="--d:.1s">Book Your Journey</p>
+    <h1 id="bk-title" class="rise" style="--d:.2s">Tell Us Where <em>You're Going</em></h1>
+    <p class="lead rise" style="--d:.32s">Share your journey details and travel requirements. We'll use the information to arrange the right transportation for your trip.</p>
+  </div>
+</section>
+
+<section class="bk-main">
+  <div class="wrap bk-grid">
+
+    <div class="bk-formcol">
+      <form id="bookingForm" class="bk-form" novalidate aria-labelledby="form-title">
+        <h2 id="form-title">Your transfer request</h2>
+        <p class="req-note"><span class="req" aria-hidden="true">*</span> Required. No price is shown here; we review your details first.</p>
+        <div class="err-summary" id="errSummary" role="alert" tabindex="-1" hidden></div>
+
+        <fieldset class="fs">
+          <legend><span class="step">1</span>Journey details</legend>
+          <div class="f">
+            <label for="service">Service type <span class="req" aria-hidden="true">*</span></label>
+            <select id="service" name="service" required>
+              <option value="">Select a service</option>
+              <option>Airport Transfer</option>
+              <option>Private Transfer</option>
+              <option>City Transfer</option>
+              <option>Long-Distance Transfer</option>
+              <option>Group &amp; Minivan Transfer</option>
+              <option>Chauffeur Service</option>
+            </select>
+            <p class="err" id="service-err" hidden></p>
+          </div>
+          <div class="f">
+            <label for="pickup">Pickup location <span class="req" aria-hidden="true">*</span></label>
+            <input id="pickup" name="pickup" type="text" placeholder="Hotel, airport, station or full pickup address" autocomplete="street-address" required>
+            <p class="err" id="pickup-err" hidden></p>
+          </div>
+          <div class="f">
+            <label for="dest">Destination <span class="req" aria-hidden="true">*</span></label>
+            <input id="dest" name="destination" type="text" placeholder="Where would you like to go?" autocomplete="off" required>
+            <p class="err" id="dest-err" hidden></p>
+          </div>
+          <div class="row2">
+            <div class="f">
+              <label for="date">Travel date <span class="req" aria-hidden="true">*</span></label>
+              <input id="date" name="date" type="date" required>
+              <p class="err" id="date-err" hidden></p>
+            </div>
+            <div class="f">
+              <label for="time">Pickup time <span class="req" aria-hidden="true">*</span></label>
+              <input id="time" name="time" type="time" required>
+              <p class="err" id="time-err" hidden></p>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset class="fs">
+          <legend><span class="step">2</span>Passenger details</legend>
+          <div class="row2">
+            <div class="f">
+              <label for="pax">Number of passengers <span class="req" aria-hidden="true">*</span></label>
+              <input id="pax" name="passengers" type="number" inputmode="numeric" min="1" max="99" value="1" required>
+              <p class="err" id="pax-err" hidden></p>
+            </div>
+            <div class="f">
+              <label for="lug">Luggage <span class="opt">(optional)</span></label>
+              <select id="lug" name="luggage">
+                <option value="">Select if relevant</option>
+                <option>No luggage</option>
+                <option>Small amount</option>
+                <option>Several suitcases</option>
+                <option>Large / special luggage</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset class="fs">
+          <legend><span class="step">3</span>Your details</legend>
+          <div class="f">
+            <label for="name">Full name <span class="req" aria-hidden="true">*</span></label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+            <p class="err" id="name-err" hidden></p>
+          </div>
+          <div class="row2">
+            <div class="f">
+              <label for="phone">WhatsApp / phone <span class="req" aria-hidden="true">*</span></label>
+              <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+ country code, then number" required>
+              <p class="hint" id="phone-hint">Include your country code, starting with +.</p>
+              <p class="err" id="phone-err" hidden></p>
+            </div>
+            <div class="f">
+              <label for="email">Email <span class="opt">(optional)</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="name@example.com">
+              <p class="err" id="email-err" hidden></p>
+            </div>
+          </div>
+          <div class="f">
+            <label for="notes">Additional information <span class="opt">(optional)</span></label>
+            <textarea id="notes" name="notes" rows="4" placeholder="Tell us anything important about your journey, pickup point, luggage or special requirements."></textarea>
+          </div>
+        </fieldset>
+
+        <button class="btn btn-primary btn-block bk-submit" type="submit" id="submitBtn"><span>Request My Transfer</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      </form>
+
+      <div class="bk-done" id="bkDone" tabindex="-1" hidden role="status"></div>
+
+      <aside class="bk-wa" aria-labelledby="wa-title">
+        <div>
+          <h2 id="wa-title">Prefer WhatsApp?</h2>
+          <p>Send your journey details directly and continue the booking conversation on WhatsApp.</p>
+        </div>
+        <a class="btn btn-outline" id="waBtn" href="#form-title" aria-describedby="waNote">Book via WhatsApp</a>
+        <p class="wa-note" id="waNote">WhatsApp number to be added: [WhatsApp number]</p>
+      </aside>
+    </div>
+
+    <aside class="bk-side" aria-labelledby="ready-title">
+      <h2 id="ready-title">Before You Submit Your Request</h2>
+      <p>Accurate information helps us arrange the journey properly. Have these ready:</p>
+      <ul class="ready">
+        <li>Pickup location</li><li>Destination</li><li>Date and time</li><li>Number of passengers</li><li>Luggage information</li><li>Contact details</li><li>Any special instructions</li>
+      </ul>
+      <p class="side-fine">If something is not decided yet, send what you have and tell us what is still open.</p>
+    </aside>
+  </div>
+</section>
+
+<section class="bk-help" id="help" aria-labelledby="help-title">
+  <div class="wrap">
+    <h2 id="help-title">Not Sure Which Service to Choose?</h2>
+    <ul class="helplist">
+      <li><a href="../airport-transfers/"><span class="h-t">Airport Transfer</span><span class="h-d">Airport pickup or drop-off.</span></a></li>
+      <li><a href="../city-transfers/"><span class="h-t">City Transfer</span><span class="h-d">Travel within or around a city.</span></a></li>
+      <li><a href="../private-transfers/"><span class="h-t">Private Transfer</span><span class="h-d">Direct transportation between destinations.</span></a></li>
+      <li><a href="../long-distance-transfers/"><span class="h-t">Long-Distance Transfer</span><span class="h-d">Longer journeys between cities or regions.</span></a></li>
+      <li><a href="../group-transfers/"><span class="h-t">Group Transfer</span><span class="h-d">Travel for families and groups.</span></a></li>
+      <li><a href="../chauffeur-service/"><span class="h-t">Chauffeur Service</span><span class="h-d">Planned itineraries, business travel and multi-stop journeys.</span></a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="bk-clarity" aria-label="How booking works">
+  <div class="wrap clarity">
+    <div><h2>Clear Journey Details</h2><p>Know exactly what information is being requested.</p></div>
+    <div><h2>Private Transportation</h2><p>Request a dedicated transportation arrangement.</p></div>
+    <div><h2>Easy Contact</h2><p>Continue through the available contact or WhatsApp channel.</p></div>
+  </div>
+</section>
+
+<section class="section faq s-faq" id="faq" aria-labelledby="faq-title">
+  <div class="wrap faq-grid">
+    <header>
+      <p class="kicker">Questions</p>
+      <h2 id="faq-title">Booking Questions</h2>
+    </header>
+    <div class="faq-list">
+      <details><summary>What information do I need to provide when booking?</summary><div class="ans"><p>Your pickup location, destination, travel date, preferred pickup time, number of passengers, luggage information, your name and a phone or WhatsApp number, plus any special instructions.</p></div></details>
+      <details><summary>Can I request an airport transfer?</summary><div class="ans"><p>Yes. Choose Airport Transfer, enter the airport as your pickup or destination, and add your flight number in the additional information.</p></div></details>
+      <details><summary>Can I book transportation between Italian cities?</summary><div class="ans"><p>Yes. Choose Long-Distance Transfer and enter your starting point and destination. We will confirm whether we can take the journey.</p></div></details>
+      <details><summary>Can I book for a group?</summary><div class="ans"><p>Yes. Choose Group &amp; Minivan Transfer, enter the number of passengers and describe your luggage so we can suggest a suitable arrangement.</p></div></details>
+      <details><summary>Can I include luggage information?</summary><div class="ans"><p>Yes. Use the luggage field and add details about large or unusual items in the additional information.</p></div></details>
+      <details><summary>Can I request a specific pickup time?</summary><div class="ans"><p>Yes. Enter your preferred pickup time. The time is subject to confirmation.</p></div></details>
+      <details><summary>Will I see the price before submitting my request?</summary><div class="ans"><p>The booking form does not display an automatic estimated fare. Journey details are submitted first so the transportation request can be reviewed.</p></div></details>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap foot-grid">
+    <div class="foot-brand"><a class="brand" href="../index.html"><span class="brand-name">Italy <em>Taxi</em> Service</span></a><p>Taxi and private transfers for airports, cities, hotels and destinations across Italy.</p></div>
+    <nav aria-label="Quick links"><h2>Quick Links</h2><ul>
+      <li><a href="../index.html">Home</a></li><li><a href="../services/">Services</a></li><li><a href="../airport-transfers/">Airport Transfers</a></li><li><a href="../private-transfers/">Private Transfers</a></li><li><a href="../city-transfers/">City Transfers</a></li><li><a href="../long-distance-transfers/">Long-Distance Transfers</a></li><li><a href="../group-transfers/">Group Transfers</a></li><li><a href="../chauffeur-service/">Chauffeur Service</a></li></ul></nav>
+    <nav aria-label="Destinations"><h2>Destinations</h2><ul><li><a href="../rome-taxi/">Rome</a></li><li><a href="../index.html#destinations">Milan</a></li><li><a href="../index.html#destinations">Florence</a></li><li><a href="../index.html#destinations">Venice</a></li><li><a href="../index.html#destinations">Naples</a></li></ul></nav>
+    <address id="contact"><h2>Contact</h2><ul><li>Phone: [phone number]</li><li>Email: [email address]</li><li>Address: [business address]</li><li>Hours: [opening hours]</li></ul></address>
+  </div>
+  <div class="wrap foot-base"><p>&copy; <span id="yr">2026</span> Italy Taxi Service. All rights reserved.</p><p class="credit">Photography via <a href="https://unsplash.com" rel="noopener">Unsplash</a>.</p></div>
+</footer>
+
+<script src="../main.js"></script>
+<script src="../services.js"></script>
+<script src="../booking.js"></script>
+</body>
+</html>

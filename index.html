@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Italy Taxi Service | Airport Transfers, Private Transfers & Chauffeur Rides in Italy</title>
+<meta name="description" content="Italy Taxi Service offers taxi and private transfers for airports, cities, hotels and destinations across Italy. Request a ride for airport pickups, city-to-city journeys or a private chauffeur.">
+<link rel="canonical" href="https://www.example.com/">
+<meta name="theme-color" content="#14201c">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Italy Taxi Service — Your Ride Across Italy, Made Simple">
+<meta property="og:description" content="Taxi and private transfers for airports, cities, hotels and destinations across Italy.">
+<meta property="og:image" content="images/hero-tuscany.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="images/hero-tuscany.jpg">
+<link rel="stylesheet" href="styles.css">
+
+<!-- Only facts that are actually known are included. Add telephone, address, areaServed, sameAs, etc. once real details exist. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.example.com/#organization",
+      "name": "Italy Taxi Service",
+      "url": "https://www.example.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.example.com/#website",
+      "url": "https://www.example.com/",
+      "name": "Italy Taxi Service",
+      "publisher": { "@id": "https://www.example.com/#organization" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How can I book a taxi?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Enter your pickup location, destination, date, time and number of passengers in the booking form and send your request. We will confirm your booking with you." }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I book an airport transfer?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. You can request a ride between an airport and your hotel, address or destination. Add your flight number in the request so your pickup time can be planned around your arrival." }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide private transfers between cities?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Private transfers between cities are available as door-to-door journeys. Enter your starting point and destination and we will confirm the details with you." }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I book transportation for a family or group?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Tell us how many passengers are travelling and how much luggage you have so we can suggest a suitable vehicle, such as a van or minivan for larger parties." }
+        },
+        {
+          "@type": "Question",
+          "name": "How far in advance should I book?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Booking as early as you can is best, especially for airport pickups, early-morning departures and busy travel periods. If your plans change at short notice, you can still send a request and we will do our best to help." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="top">
+  <div class="wrap header-in">
+    <a class="brand" href="/" aria-label="Italy Taxi Service — home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="30" height="30"><circle cx="16" cy="16" r="15" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M6 21c4.5-1 6-6 10-6s5.5 5 10 6" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M6 15.5c4.5-1 6-6 10-6s5.5 5 10 6" fill="none" stroke="#c9653f" stroke-width="1.4" stroke-linecap="round"/></svg>
+      </span>
+      <span class="brand-name">Italy <em>Taxi</em> Service</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#services">Services</a>
+      <a href="#destinations">Destinations</a>
+      <a href="#vehicles">Vehicles</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#faq">FAQ</a>
+      <a class="nav-cta" href="#book">Book Your Ride</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav" aria-label="Open menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero-bg" aria-hidden="true">
+    <img id="heroImg" src="images/hero-tuscany.jpg" alt="" fetchpriority="high" decoding="async">
+  </div>
+  <div class="hero-shade" aria-hidden="true"></div>
+
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow rise" style="--d:.15s">Italy Taxi Service</p>
+      <h1 id="hero-title" class="rise" style="--d:.28s">Your Ride Across Italy, <em>Made Simple</em></h1>
+      <p class="lead rise" style="--d:.42s">Reliable taxi and private transfers for airports, cities, hotels and destinations across Italy. Comfortable rides, professional service and an easy way to book.</p>
+      <div class="cta-row rise" style="--d:.56s">
+        <a class="btn btn-primary" href="#book"><span>Book Your Ride</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-ghost" href="#services">Explore Our Services</a>
+      </div>
+    </div>
+
+    <form class="book-card card-in" id="book" action="#" method="post" aria-labelledby="book-title" novalidate>
+      <div class="book-head">
+        <h2 id="book-title">Request a ride</h2>
+        <p>Tell us about your journey and we will get back to you to confirm.</p>
+      </div>
+      <div class="field">
+        <label for="pickup">Pickup location</label>
+        <input id="pickup" name="pickup" type="text" placeholder="Airport, hotel or address" autocomplete="off" required>
+      </div>
+      <div class="field">
+        <label for="dropoff">Drop-off location</label>
+        <input id="dropoff" name="dropoff" type="text" placeholder="City, hotel or address" autocomplete="off" required>
+      </div>
+      <div class="row2">
+        <div class="field">
+          <label for="date">Date</label>
+          <input id="date" name="date" type="date" required>
+        </div>
+        <div class="field">
+          <label for="time">Time</label>
+          <input id="time" name="time" type="time" required>
+        </div>
+      </div>
+      <div class="field">
+        <label for="pax">Passengers</label>
+        <select id="pax" name="passengers">
+          <option>1</option><option selected>2</option><option>3</option><option>4</option>
+          <option>5</option><option>6</option><option>7</option><option>8</option><option>9 or more</option>
+        </select>
+      </div>
+      <button class="btn btn-primary btn-block" type="submit"><span>Request a Ride</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      <p class="form-note" id="formNote" role="status" aria-live="polite">We will reply to confirm your booking.</p>
+    </form>
+  </div>
+
+  <p class="trust-line wrap rise" style="--d:.7s">Private transfers <i aria-hidden="true">•</i> Airport rides <i aria-hidden="true">•</i> City connections</p>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section services" id="services" aria-labelledby="services-title">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="kicker">What we do</p>
+      <h2 id="services-title">Travel Your Way</h2>
+      <p>Whether you are landing at an airport, heading to a hotel, crossing from one city to another or planning a longer journey, you can book your transport in one place.</p>
+    </header>
+
+    <div class="svc-grid">
+      <a class="svc svc-airport reveal" href="#book" aria-label="Airport Transfers">
+        <img src="images/airport-window.jpg" alt="Evening view of the horizon and a wing from an aircraft window" loading="lazy" decoding="async">
+        <div class="svc-body">
+          <span class="svc-tag">01</span>
+          <h3>Airport Transfers</h3>
+          <p>Comfortable rides between airports, hotels and destinations.</p>
+          <span class="svc-link">Request a transfer <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+
+      <a class="svc svc-private reveal" href="#book" aria-label="Private Transfers">
+        <img src="images/amalfi.jpg" alt="Pastel houses on the hillside above the sea at Positano on the Amalfi Coast" loading="lazy" decoding="async">
+        <div class="svc-body">
+          <span class="svc-tag">02</span>
+          <h3>Private Transfers</h3>
+          <p>Door-to-door transportation for a more comfortable journey.</p>
+          <span class="svc-link">Plan a transfer <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+
+      <a class="svc svc-city reveal" href="#book" aria-label="City Transfers">
+        <img src="images/rome-street.jpg" alt="A white taxi on a Rome street with the Colosseum in the distance" loading="lazy" decoding="async">
+        <div class="svc-body">
+          <span class="svc-tag">03</span>
+          <h3>City Transfers</h3>
+          <p>Reliable rides around Italy's major cities and destinations.</p>
+          <span class="svc-link">Book a city ride <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+
+      <a class="svc svc-chauffeur reveal" href="#book" aria-label="Chauffeur Service">
+        <img src="images/executive-car.jpg" alt="Silhouette of a dark executive saloon car" loading="lazy" decoding="async">
+        <div class="svc-body">
+          <span class="svc-tag">04</span>
+          <h3>Chauffeur Service</h3>
+          <p>A professional private-driver option for business trips, sightseeing and special occasions.</p>
+          <span class="svc-link">Ask about a chauffeur <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY ============ -->
+<section class="section why" aria-labelledby="why-title">
+  <div class="wrap why-grid">
+    <header class="why-head reveal">
+      <p class="kicker">Practical, not complicated</p>
+      <h2 id="why-title">A Better Way to Travel Through Italy</h2>
+      <p>Getting from the airport to a hotel, or from one city to the next, should be the easy part of your trip. Here is what we focus on.</p>
+    </header>
+
+    <ol class="why-list">
+      <li class="reveal">
+        <span class="mark" aria-hidden="true"><svg viewBox="0 0 48 48"><circle class="ring" cx="24" cy="24" r="21"/><path class="tick" d="M15 25l6 6 12-14"/></svg></span>
+        <div><h3>Easy Booking</h3><p>Request your ride without complicated steps.</p></div>
+      </li>
+      <li class="reveal">
+        <span class="mark" aria-hidden="true"><svg viewBox="0 0 48 48"><circle class="ring" cx="24" cy="24" r="21"/><path class="tick" d="M13 28c2-6 4-9 8-9h8c3 0 5 3 6 9M13 28h22M18 31v2m12-2v2"/></svg></span>
+        <div><h3>Comfortable Vehicles</h3><p>A clean and comfortable ride for short or long journeys.</p></div>
+      </li>
+      <li class="reveal">
+        <span class="mark" aria-hidden="true"><svg viewBox="0 0 48 48"><circle class="ring" cx="24" cy="24" r="21"/><path class="tick" d="M14 30c0-5 4-8 10-8s10 3 10 8M24 22a5 5 0 100-10 5 5 0 000 10z"/></svg></span>
+        <div><h3>Professional Service</h3><p>Clear communication and a customer-first experience.</p></div>
+      </li>
+      <li class="reveal">
+        <span class="mark" aria-hidden="true"><svg viewBox="0 0 48 48"><circle class="ring" cx="24" cy="24" r="21"/><path class="tick" d="M13 24h22M29 17l7 7-7 7"/></svg></span>
+        <div><h3>Flexible Travel</h3><p>Airport pickups, hotel transfers, city rides and longer journeys.</p></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ DESTINATIONS ============ -->
+<section class="section dest" id="destinations" aria-labelledby="dest-title">
+  <div class="wrap">
+    <div class="dest-grid">
+      <div class="dest-copy reveal">
+        <p class="kicker">Across the country</p>
+        <h2 id="dest-title">From Arrival to Destination</h2>
+        <p>Italy Taxi Service helps travellers move comfortably between airports, hotels, cities and destinations, whether it is a first night in Rome, a morning train connection in Milan or a coastal road to Amalfi.</p>
+        <p>Tell us where you are starting and where you need to be. We handle the journey in between.</p>
+        <a class="btn btn-dark" href="#book"><span>Plan Your Journey</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <ul class="dest-links" aria-label="Destinations">
+          <li><a href="#book">Rome</a></li><li><a href="#book">Milan</a></li><li><a href="#book">Florence</a></li>
+          <li><a href="#book">Venice</a></li><li><a href="#book">Naples</a></li><li><a href="#book">Amalfi Coast</a></li>
+        </ul>
+      </div>
+
+      <div class="collage reveal" aria-label="Photographs of Italian destinations">
+        <figure class="c-main"><img src="images/florence.jpg" alt="The Florence Duomo and rooftops at sunrise" loading="lazy" decoding="async"><figcaption>Florence</figcaption></figure>
+        <figure class="c-a"><img src="images/venice.jpg" alt="Boats on the Grand Canal in Venice" loading="lazy" decoding="async"><figcaption>Venice</figcaption></figure>
+        <figure class="c-b"><img src="images/amalfi.jpg" alt="Positano on the Amalfi Coast" loading="lazy" decoding="async"><figcaption>Amalfi Coast</figcaption></figure>
+        <figure class="c-c"><img src="images/milan.jpg" alt="Piazza del Duomo in Milan" loading="lazy" decoding="async"><figcaption>Milan</figcaption></figure>
+        <figure class="c-d"><img src="images/naples.jpg" alt="Mount Vesuvius across the Bay of Naples" loading="lazy" decoding="async"><figcaption>Naples</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="section process" id="how-it-works" aria-labelledby="process-title">
+  <div class="wrap">
+    <header class="sec-head sec-head-light reveal">
+      <p class="kicker">Booking</p>
+      <h2 id="process-title">Your Journey Starts Here</h2>
+    </header>
+    <ol class="steps">
+      <li class="step reveal">
+        <span class="step-no">01</span>
+        <h3>Tell Us Where</h3>
+        <p>Enter your pickup and destination.</p>
+      </li>
+      <li class="step reveal">
+        <span class="step-no">02</span>
+        <h3>Choose Your Ride</h3>
+        <p>Select the service that suits your journey.</p>
+      </li>
+      <li class="step reveal">
+        <span class="step-no">03</span>
+        <h3>Travel With Confidence</h3>
+        <p>Receive booking confirmation and enjoy your ride.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ VEHICLES ============ -->
+<section class="section vehicles" id="vehicles" aria-labelledby="veh-title">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="kicker">The fleet</p>
+      <h2 id="veh-title">Comfort for Every Journey</h2>
+      <p>Choose the vehicle that fits your group and luggage. Exact models are confirmed when you book.</p>
+    </header>
+
+    <div class="veh-grid">
+      <article class="veh reveal">
+        <div class="veh-img"><img src="images/rome-street.jpg" alt="White car driving through a city street in Rome" loading="lazy" decoding="async" style="object-position:78% 75%"></div>
+        <h3>Standard Car</h3>
+        <p>For everyday city and airport journeys.</p>
+      </article>
+      <article class="veh veh-feature reveal">
+        <div class="veh-img"><img src="images/executive-car.jpg" alt="Dark executive saloon car in low light" loading="lazy" decoding="async"></div>
+        <h3>Executive Car</h3>
+        <p>For business travellers and customers wanting extra comfort.</p>
+      </article>
+      <article class="veh reveal">
+        <div class="veh-img"><img src="images/van.jpg" alt="White van on a curving road" loading="lazy" decoding="async" style="object-position:50% 85%"></div>
+        <h3>Van / Minivan</h3>
+        <p>For families and small groups.</p>
+      </article>
+    </div>
+    <div class="center reveal"><a class="btn btn-dark" href="#book"><span>View Vehicles</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+  </div>
+</section>
+
+<!-- ============ TRUST ============ -->
+<section class="section trust" aria-labelledby="trust-title">
+  <div class="wrap trust-in reveal">
+    <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+    <h2 id="trust-title">Traveller reviews will appear here</h2>
+    <p>Genuine reviews from travellers will be shown here as they come in. Until then, the easiest way to get a feel for the service is to send us your plans and see how we reply.</p>
+    <!-- Testimonial slots: add real, permission-granted reviews here as <figure class="review"> elements. -->
+    <a class="text-link" href="#book">Send us your journey details</a>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section faq" id="faq" aria-labelledby="faq-title">
+  <div class="wrap faq-grid">
+    <header class="reveal">
+      <p class="kicker">Questions</p>
+      <h2 id="faq-title">Before You Book</h2>
+      <p>Short answers to what travellers usually ask first.</p>
+    </header>
+    <div class="faq-list reveal">
+      <details>
+        <summary>How can I book a taxi?</summary>
+        <p>Enter your pickup location, drop-off location, date, time and number of passengers in the booking form, then send your request. We will confirm your booking with you.</p>
+      </details>
+      <details>
+        <summary>Can I book an airport transfer?</summary>
+        <p>Yes. You can request a ride between an airport and your hotel, address or destination. Add your flight number so the pickup can be planned around your arrival.</p>
+      </details>
+      <details>
+        <summary>Do you provide private transfers between cities?</summary>
+        <p>Yes. Private transfers between cities are door-to-door. Enter where you are starting and where you are going, and we will confirm the details with you.</p>
+      </details>
+      <details>
+        <summary>Can I book transportation for a family or group?</summary>
+        <p>Yes. Let us know how many people are travelling and how much luggage you have, so we can suggest the right vehicle, such as a van or minivan for larger parties.</p>
+      </details>
+      <details>
+        <summary>How far in advance should I book?</summary>
+        <p>As early as you can, especially for airport pickups, early departures and busy travel periods. If your plans change at short notice, you can still send a request and we will do our best to help.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="final" aria-labelledby="final-title">
+  <img class="final-bg" src="images/florence.jpg" alt="" loading="lazy" decoding="async">
+  <div class="final-shade" aria-hidden="true"></div>
+  <div class="wrap final-in reveal">
+    <h2 id="final-title">Ready to Travel?</h2>
+    <p>Tell us where you are going and let us take care of the journey.</p>
+    <a class="btn btn-primary btn-lg" href="#book"><span>Book Your Ride</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <a class="brand" href="/"><span class="brand-name">Italy <em>Taxi</em> Service</span></a>
+      <p>Taxi and private transfers for airports, cities, hotels and destinations across Italy.</p>
+    </div>
+    <nav aria-label="Quick links">
+      <h2>Quick Links</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#services">Airport Transfers</a></li>
+        <li><a href="#services">Private Transfers</a></li>
+        <li><a href="#services">Chauffeur Service</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Service areas">
+      <h2>Service Areas</h2>
+      <ul>
+        <li><a href="#destinations">Rome</a></li>
+        <li><a href="#destinations">Milan</a></li>
+        <li><a href="#destinations">Florence</a></li>
+        <li><a href="#destinations">Venice</a></li>
+        <li><a href="#destinations">Naples</a></li>
+      </ul>
+    </nav>
+    <address id="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li>Phone: [phone number]</li>
+        <li>Email: [email address]</li>
+        <li>Address: [business address]</li>
+        <li>Hours: [opening hours]</li>
+      </ul>
+    </address>
+  </div>
+  <div class="wrap foot-base">
+    <p>&copy; <span id="yr">2026</span> Italy Taxi Service. All rights reserved.</p>
+    <p class="credit">Photography via <a href="https://unsplash.com" rel="noopener">Unsplash</a>.</p>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
